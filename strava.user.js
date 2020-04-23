@@ -53,4 +53,10 @@ for(tag of all_enhanced_tags){
   }
 }
 
+all_walk_icons = document.getElementsByClassName('icon-walk')
+for(icon of all_walk_icons){
+  // icon.parentElement.parentElement.parentElement.parentElement.parentElement.style.border = "green dashed"
+  icon.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
+}
+
 console.log("Removed Strava Clutter")
