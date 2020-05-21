@@ -3,6 +3,7 @@
 // @description Removes sponsored content, virtual rides, and more from your Strava feed
 // @include https://www.strava.com/dashboard
 // @include https://www.strava.com/dashboard/*
+// @include https://www.strava.com/activities/*
 // @author Neil Guertin
 // @version  1
 // @grant    none
