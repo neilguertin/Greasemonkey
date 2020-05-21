@@ -35,6 +35,8 @@ sheet.insertRule("#js-manage-your-goals { display: none }");
 sheet.insertRule("#run-yearly-progress-container, #ride-yearly-progress-container, #swim-yearly-progress-container { display: none }");
 sheet.insertRule(".challenge { display: none }");
 sheet.insertRule(".club { display: none }");
+sheet.insertRule(".matched-activities-upsell { display: none }");
+sheet.insertRule(".relative-effort-upsell { display: none }");
 
 // Remove virtual rides. These cannot be removed with a simple css class based rule.
 all_map_tags = document.getElementsByClassName('activity-map-tag')
