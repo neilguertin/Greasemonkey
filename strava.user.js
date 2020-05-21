@@ -39,7 +39,7 @@ sheet.insertRule(".club { display: none }");
 sheet.insertRule(".matched-activities-upsell { display: none }");
 sheet.insertRule(".relative-effort-upsell { display: none }");
 
-// Remove virtual rides. These cannot be removed with a simple css class based rule.
+// Remove virtual rides from feed. These cannot be removed with a simple css class based rule.
 all_map_tags = document.getElementsByClassName('activity-map-tag')
 for(tag of all_map_tags){
   // tag.style.border = "green dashed"
@@ -48,6 +48,7 @@ for(tag of all_map_tags){
   }
 }
 
+// Remove TrainerRoad activities from feed
 all_enhanced_tags = document.getElementsByClassName('enhanced-tag')
 for(tag of all_enhanced_tags){
   // tag.style.border = "green dashed"
@@ -56,6 +57,7 @@ for(tag of all_enhanced_tags){
   }
 }
 
+// Remove walks from feed
 all_walk_icons = document.getElementsByClassName('icon-walk')
 for(icon of all_walk_icons){
   // icon.parentElement.parentElement.parentElement.parentElement.parentElement.style.border = "green dashed"
