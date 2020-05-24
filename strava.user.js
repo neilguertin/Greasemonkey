@@ -38,6 +38,7 @@ sheet.insertRule(".challenge { display: none }");
 sheet.insertRule(".club { display: none }");
 sheet.insertRule(".matched-activities-upsell { display: none }");
 sheet.insertRule(".relative-effort-upsell { display: none }");
+sheet.insertRule("#segments-upsell { display: none }");
 
 // Remove virtual rides from feed. These cannot be removed with a simple css class based rule.
 all_map_tags = document.getElementsByClassName('activity-map-tag')
